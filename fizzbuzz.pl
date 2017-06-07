@@ -7,12 +7,12 @@ my $fizzBuzz = "FizzBuzz";
 
 for (my $i = 1; $i <= 30; $i++) {
   if ($i % 15 == 0) {
-    print "$fizzBuzz\r\n";
+    print "$fizzBuzz\n";
   } elsif ($i % 5 == 0) {
-    print "$buzz\r\n";
+    print "$buzz\n";
   } elsif ($i % 3 == 0) {
-    print "$fizz\r\n";
+    print "$fizz\n";
   } else {
-    print "$i\r\n";
+    print "$i\n";
   }
 }
